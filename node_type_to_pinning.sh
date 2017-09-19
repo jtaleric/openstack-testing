@@ -5,7 +5,7 @@ node_to_pinning[r630]=r630-compute
 node_to_pinning[r730xd]=r730xd-compute
 node_to_pinning[r930]=r930-compute
 node_to_pinning[6018r]=6018r-compute
-node_to_pinning[6048r]=6048r-compute
+node_to_pinning[6048r]=ceph-storage
 for node_type in "${!node_to_pinning[@]}"
     do 
         COUNT=0
